@@ -3,7 +3,7 @@
 }
 
 .section__h1 {
-  width: 15%;
+  width: 150px;
   text-align: center;
   color: hsl(0, 0%, 100%);
   font-size: 26px;
@@ -14,7 +14,7 @@
 
 @media (min-width: 360px) {
   .section__h1 {
-    width: 35%;
+    width: 45%;
   }
 }
 
@@ -36,24 +36,6 @@
   transform: scale(1.1);
 }
 
-/* .section__h1--violet {
-  background-color: hsl(300, 76%, 72%);
-}
-
-.section__h1--violet:active {
-  background-color: hsl(300, 76%, 62%);
-  transform: scale(1.1);
-}
-
-.section__h1--orange {
-  background-color: hsl(39, 100%, 50%);
-}
-
-.section__h1--orange:active {
-  background-color: hsl(39, 100%, 60%);
-  transform: scale(1.1);
-} */
-
 .section__h1--link {
   text-decoration: none;
   cursor: context-menu; 
@@ -62,7 +44,7 @@
 .section__button {
   background-color: hsl(0, 0%, 83%);
   border-style: none;
-  font-size: 22px;
+  font-size: 14px;
   padding: 8px;
   margin: 5px;
   cursor: context-menu; 
@@ -72,4 +54,8 @@
   color: hsl(0, 0%, 0%);
   text-decoration: none;
   cursor: context-menu;
+}
+
+.section__button--size {
+  font-size: 22px;
 }
