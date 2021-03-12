@@ -3,13 +3,19 @@
 }
 
 .section__h1 {
-  width: 90px;
+  width: 15%;
   text-align: center;
   color: hsl(0, 0%, 100%);
   font-size: 26px;
   padding: 25px;
   cursor: context-menu; 
   transition: 0.3s;
+}
+
+@media (min-width: 360px) {
+  .section__h1 {
+    width: 35%;
+  }
 }
 
 .section__h1--lightseagreen {
